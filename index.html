@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <h1>Primeiros Passos com HTML</h1>
+    <hr>
+    <h2>índice</h2>
+    <h3 id="inicio"><mark>Comunicação Client x Server</mark></h3>
+    <ul>
+        <li><a href="#historia-web">História da Web</a></li>
+        <li><a href="#clients">O que são Clients</a></li>
+        <li><a href="#servers">O que são Servers</a></li>
+        <li><a href="#linguaguens-programacao">Linguagens de Programação</a></li>
+    </ul>
+    <h3 id="inicio"><mark>Introdução ao HTML na Prática</mark></h3>
+    <ul>
+        <li><a href="#ferramentas">Ferramentas Utilizadas</a></li>
+        <li><a href="#inspetor">Inspetor de Elementos</a></li>
+        <li><a href="#estrutura-html">Estrutura Básica do HTML</a></li>
+        <li><a href="#falando-tags">Falando sobre Tags</a></li>
+        <li><a href="#atributos-tags">Atributos das Tags</a></li>
+        <li><a href="#lista-ol-ul">Listas Ordenadas e Não Ordenadas</a></li>
+    </ul>
+    <h3 id="inicio"><mark><a href="#material-apoio">Material de Apoio</a></mark></h3>
+    <hr>
+    <h2><font>Comunicação Client x Server</font></h2>
+    <h3 id="historia-web">História da Web</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        A história da web começa com o início da comunicação através do telégrafo e vai evoluindo através dos computadores da época, passando pela guerra fria até chegar em 1989 , com Tim Berners-Lee que dá um passo importante ao unir hipertexto com TCP/IP e cria a World Wide Web, que também é o nome do primeiro navegador.
+    </p>
+    <h3 id="clients">O que são Clients</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        Client é quando  algum dispositivo consome informação de algum lugar, dentro da internet Cliet seria o dispositivo que consomem informações da internet. 
+    </p>
+    <p>
+        <strong>Exemplos:</strong> Notebook, Pc 's, Smartphone eles se conectam com outros servidores usando a internet como meio de comunicação.
+    </p>
+    <p>
+        E como isso funciona? Quando acessamos algum site, o navegador entra na internet , acessa o servidor e retorna com vários arquivos que são chamados de arquivos estáticos. 
+    </p>
+    <p>
+        Um outro ponto para ser mencionado, é que depois que esses arquivos são acessados pelo navegador ele gera um cache, que basicamente são os arquivos acessados armazenados no computador para não ter que baixar tudo de novo. Caso necessário o navegador faz um refresh apagando o cache e atualizando com um novo.
+    </p>
+    <p>
+        Dentro do conceito de Client temos uma preocupação que são as diferentes resoluções de tela que devem ser consideradas na criação de algum website. Outra preocupação é a compatibilidade entre navegadores, pois o comportamento de cada navegador é diferente.
+    </p>
+    <p>
+        E o que são navegadores? Navegadores também chamados de browsers, são programas que são instalados nos dispositivos que tem como objetivo interpretar os arquivos que vem do servidor web, como por exemplo o HTML,CSS, JavaScript, imagens assim como outros tipos de arquivos. E cada navegador tem sua forma de tratar os arquivos que vem do servidor.
+    </p>
+    <p>
+        Dentro de Client temos mais assunto que se chama aplicação web, que são soluções criadas que possuem a internet como meio de comunicação e que não precisam ser instaladas no dispositivo. 
+    </p>
+    <p>
+        <strong>Exemplos:</strong> O Youtube acessado pelo navegador é uma aplicação web. Já quando acessamos o mesmo pelo aplicativo deixa de ser uma aplicação web pois usa de outros meios para funcionar.
+    </p>
+    <h3 id="servers">O que são Servers</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        Agora vamos entender um pouco sobre os servidores? Servidores nada mais são que computadores que têm um comportamento diferente do Client, também usam a conexão com a internet para fazer suas comunicações, porém não é o único meio de acesso, nesse caso que não necessita da internet chamamos de servidores locais ou rede local.
+    </p>
+    <p>
+        Os computadores que são usados como servidores precisam ser mais potentes pela demanda que irão fazer. Existem vários tipos de servidores para cada demanda.
+    </p>
+    <p>
+        Exemplo: Arquivos, Segurança (Firewall), Streaming, E-mail, Web.
+    </p>
+    <h3 id="linguaguens-programacao">Linguagens de Programação</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        Linguagem de programação é um conjunto de informações e regras inserida no computador de forma lógica, para gerar um programa.
+    </p>
+    <p>
+        As principais são Javascript, Python, Java, PHP e C#.
+    </p>
+    <h2>Introdução ao HTML na Prática</h2>
+    <h3 id="ferramentas">Ferramentas Utilizadas</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        Todo profissional tem sua ferramenta de trabalho que vai lhe ajudar no decorrer do dia. Na programação existem vários programas que podem nos auxiliar durante essa jornada. A usada nesse curso é <strong>Visual Studio Code</strong> que é um editor de código criado pela Microsoft, que contém várias ferramentas para facilitar e nos auxiliar durante nossos estudos ou trabalho. Também temos o navegador Google Chrome.
+    </p>
+    <h3 id="inspetor">Inspetor de Elementos</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        É mais uma ferramenta do desenvolvedor que é utilizada pelo navegador que disponibiliza a mesma. Essa ferramenta ajuda a identificar como o site foi criado, mostrando os elementos que foram usados nele.
+    </p>
+    <h3 id="estrutura-html">Estrutura Básica do HTML</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        O arquivo HTML sempre inicia com uma estrutura básica. Geralmente os editores como o Visual Studio Code já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo, você não precisa se preocupar em decorá-la, mas é bom que faça para entender melhor como ela funciona.
+    </p>
+    <h3 id="falando-tags">Falando sobre Tags</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        Tags são o conjunto de caracteres que formam um elemento, ou seja, quando nos referenciamos à Tag "p" estamos falando disso: &lt;p&gt;
+    </p>
+    <p>
+        Existem dois tipos de Tags, as que necessitam de fechamento e as que não necessitam de fechamento.   
+    </p>
+          
+    <h3 id="atributos-tags">Atributos das Tags</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        Atributos são informações que passamos na Tag para que ela se comporte da maneira que a gente espera. Dentro de atributo existem os atributos globais que funcionam em todas as Tags e específicos que são direcionados para cada Tag, através de especificação. 
+    </p>
+    <p>
+        Os atributos possuem nome e um valor, existem atributos que você vai usar praticamente sempre e existem outros que são mais raros.
+    </p>
+    <h3 id="lista-ol-ul">Listas Ordenadas e Não Ordenadas</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        Lista ordenada é uma tag que quando referenciamos ela fica da seguinte forma &lt;ol&gt; que necessita de fechamento e que é considerada uma tag pai e que precisa de uma tag filha que referenciada fica desse jeito &lt;li&gt;.
+    </p>
+    <p>
+        Lista não ordenada é uma tag que quando referenciamos ela fica da seguinte forma &lt;ul&gt; que necessita de fechamento e que é considerada uma tag pai e que precisa de uma tag filha que referenciada fica desse jeito &lt;li&gt;.
+    </p>
+    <hr>
+    <h3 id="material-apoio">Material de Apoio</h3>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p><a target="_blank" href="https://youtu.be/pKxWPo73pX0">História da Web</a></p>
+    <p><a target="_blank" href="https://youtu.be/bkDJe5UAvfM">O que são Clients</a></p>
+    <p><a target="_blank" href="https://youtu.be/7qwpOroXQ4k">O que são Servers</a></p>
+    <p><a target="_blank" href="https://youtu.be/yT22ylhonfs">Linguagens de Programação</a></p>
+    <p><a target="_blank" href="https://youtu.be/uxln1hT_Ev4">Ferramentas Utilizadas</a></p>
+    <p><a target="_blank" href="https://youtu.be/3BqZggtczqc">Inspetor de Elementos</a></p>
+    <p><a target="_blank" href="https://youtu.be/3oSIqIqzN3M">Estrutura Básica do HTML</a></p>
+    <p><a target="_blank" href="https://youtu.be/0HAHYQQjtOY">Tags e Atributos</a></p>
+    <p><a target="_blank" href="https://youtu.be/JlE0pzESf5g">Listas Ordenadas e Não Ordenadas</a></p>
+    
+</body>
+</html>
